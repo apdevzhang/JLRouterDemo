@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2309D80D2192860D00542840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309D80C2192860D00542840 /* AppDelegate.m */; };
+		2309D8102192860D00542840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309D80F2192860D00542840 /* ViewController.m */; };
+		2309D8132192860D00542840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2309D8112192860D00542840 /* Main.storyboard */; };
+		2309D8152192860E00542840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2309D8142192860E00542840 /* Assets.xcassets */; };
+		2309D8182192860E00542840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2309D8162192860E00542840 /* LaunchScreen.storyboard */; };
+		2309D81B2192860E00542840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2309D81A2192860E00542840 /* main.m */; };
+		23922BD82192888700812BA6 /* BettaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23922BD72192888700812BA6 /* BettaViewController.m */; };
+		F5DF04D2CBF2745BA45BD0DA /* libPods-Shuke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 722D142F15431C72EB5C9EA9 /* libPods-Shuke.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2309D8082192860D00542840 /* Shuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2309D80B2192860D00542840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2309D80C2192860D00542840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2309D80E2192860D00542840 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2309D80F2192860D00542840 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2309D8122192860D00542840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2309D8142192860E00542840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2309D8172192860E00542840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2309D8192192860E00542840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2309D81A2192860E00542840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23922BD62192888700812BA6 /* BettaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BettaViewController.h; sourceTree = "<group>"; };
+		23922BD72192888700812BA6 /* BettaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BettaViewController.m; sourceTree = "<group>"; };
+		23ABE348B2922134A3C0925B /* Pods-Shuke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shuke.debug.xcconfig"; path = "Target Support Files/Pods-Shuke/Pods-Shuke.debug.xcconfig"; sourceTree = "<group>"; };
+		722D142F15431C72EB5C9EA9 /* libPods-Shuke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shuke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8628EEAE221BF2818257DABE /* Pods-Shuke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shuke.release.xcconfig"; path = "Target Support Files/Pods-Shuke/Pods-Shuke.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2309D8052192860D00542840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DF04D2CBF2745BA45BD0DA /* libPods-Shuke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2309D7FF2192860D00542840 = {
+			isa = PBXGroup;
+			children = (
+				2309D80A2192860D00542840 /* Shuke */,
+				2309D8092192860D00542840 /* Products */,
+				8D3DF333927AC080C9BAFE2D /* Pods */,
+				B615F64395D926AAFF7FA5F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2309D8092192860D00542840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2309D8082192860D00542840 /* Shuke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2309D80A2192860D00542840 /* Shuke */ = {
+			isa = PBXGroup;
+			children = (
+				2309D80B2192860D00542840 /* AppDelegate.h */,
+				2309D80C2192860D00542840 /* AppDelegate.m */,
+				2309D80E2192860D00542840 /* ViewController.h */,
+				2309D80F2192860D00542840 /* ViewController.m */,
+				23922BD62192888700812BA6 /* BettaViewController.h */,
+				23922BD72192888700812BA6 /* BettaViewController.m */,
+				2309D8112192860D00542840 /* Main.storyboard */,
+				2309D8142192860E00542840 /* Assets.xcassets */,
+				2309D8162192860E00542840 /* LaunchScreen.storyboard */,
+				2309D8192192860E00542840 /* Info.plist */,
+				2309D81A2192860E00542840 /* main.m */,
+			);
+			path = Shuke;
+			sourceTree = "<group>";
+		};
+		8D3DF333927AC080C9BAFE2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23ABE348B2922134A3C0925B /* Pods-Shuke.debug.xcconfig */,
+				8628EEAE221BF2818257DABE /* Pods-Shuke.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B615F64395D926AAFF7FA5F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				722D142F15431C72EB5C9EA9 /* libPods-Shuke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2309D8072192860D00542840 /* Shuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2309D81E2192860E00542840 /* Build configuration list for PBXNativeTarget "Shuke" */;
+			buildPhases = (
+				545F46C6BC910E4D9EF13E43 /* [CP] Check Pods Manifest.lock */,
+				2309D8042192860D00542840 /* Sources */,
+				2309D8052192860D00542840 /* Frameworks */,
+				2309D8062192860D00542840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shuke;
+			productName = Shuke;
+			productReference = 2309D8082192860D00542840 /* Shuke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2309D8002192860D00542840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = BANYAN;
+				TargetAttributes = {
+					2309D8072192860D00542840 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2309D8032192860D00542840 /* Build configuration list for PBXProject "Shuke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2309D7FF2192860D00542840;
+			productRefGroup = 2309D8092192860D00542840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2309D8072192860D00542840 /* Shuke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2309D8062192860D00542840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2309D8182192860E00542840 /* LaunchScreen.storyboard in Resources */,
+				2309D8152192860E00542840 /* Assets.xcassets in Resources */,
+				2309D8132192860D00542840 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		545F46C6BC910E4D9EF13E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shuke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2309D8042192860D00542840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2309D8102192860D00542840 /* ViewController.m in Sources */,
+				2309D81B2192860E00542840 /* main.m in Sources */,
+				2309D80D2192860D00542840 /* AppDelegate.m in Sources */,
+				23922BD82192888700812BA6 /* BettaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2309D8112192860D00542840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2309D8122192860D00542840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2309D8162192860E00542840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2309D8172192860E00542840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2309D81C2192860E00542840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2309D81D2192860E00542840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2309D81F2192860E00542840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ABE348B2922134A3C0925B /* Pods-Shuke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W335NUPQPJ;
+				INFOPLIST_FILE = Shuke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BANYAN.Shuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2309D8202192860E00542840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8628EEAE221BF2818257DABE /* Pods-Shuke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W335NUPQPJ;
+				INFOPLIST_FILE = Shuke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BANYAN.Shuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2309D8032192860D00542840 /* Build configuration list for PBXProject "Shuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2309D81C2192860E00542840 /* Debug */,
+				2309D81D2192860E00542840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2309D81E2192860E00542840 /* Build configuration list for PBXNativeTarget "Shuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2309D81F2192860E00542840 /* Debug */,
+				2309D8202192860E00542840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2309D8002192860D00542840 /* Project object */;
+}
